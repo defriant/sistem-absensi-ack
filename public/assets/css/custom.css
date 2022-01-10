@@ -1,0 +1,357 @@
+.login-logo {
+    width: 200px;
+}
+
+.auth-box {
+    width: 500px !important;
+}
+
+.btn-login,
+.btn-login:hover,
+.btn-login:focus {
+    background: var(--mainColor);
+    border: var(--mainColor);
+}
+
+.brand {
+    width: 177px;
+}
+
+.login-failed-message {
+    color: rgb(255, 0, 0);
+    font-size: 1.3rem;
+    float: left;
+    margin: .5rem 0 1rem 0;
+}
+
+.change-periode {
+    padding-left: .5rem !important;
+    padding-right: .5rem !important;
+    border-radius: 3px;
+}
+
+.change-periode.active {
+    background: var(--mainColor) !important;
+    color: #fff;
+}
+
+.loading {
+    background: rgb(219, 219, 219);
+    color: rgb(219, 219, 219);
+    padding-right: 10px;
+}
+
+.loader {
+    text-align: center;
+    padding: 3.5rem 0;
+}
+
+.loader4 {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    padding: 0px;
+    border-radius: 100%;
+    border: 5px solid;
+    border-top-color: var(--mainColor);
+    border-bottom-color: rgb(225, 225, 225);
+    border-left-color: var(--mainColor);
+    border-right-color: rgb(225, 225, 225);
+    -webkit-animation: loader4 1s ease-in-out infinite;
+    animation: loader4 1s ease-in-out infinite;
+}
+
+@keyframes loader4 {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes loader4 {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.btn-table-action {
+    border: none;
+    border-radius: 3px;
+    padding: .3rem .6rem;
+    color: #fff;
+    transition: .2s;
+}
+
+.btn-table-action.acc {
+    background: #40b927;
+}
+
+.btn-table-action.edit {
+    background: #ffaa00;
+}
+
+.btn-table-action.delete {
+    background: #c91d1d;
+}
+
+.btn-table-action[disabled="disabled"] {
+    cursor: not-allowed;
+    opacity: .5;
+}
+
+.btn-table-action.btn-hide {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.date-picker {
+    background: #fff !important;
+}
+
+.time-picker {
+    background: #fff !important;
+}
+
+.user-data {
+    vertical-align: middle !important;
+}
+
+.user-data-img {
+    width: 150px;
+}
+
+.user-data-img div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-main img {
+    width: 100px;
+}
+
+.absen-status {
+    display: flex;
+    align-items: center;
+}
+
+.absen-status i {
+    font-size: 3rem !important;
+    margin-right: 2rem;
+}
+
+.absen-status .message {
+    text-align: left;
+}
+
+.absen-status .message p {
+    margin: 0;
+}
+
+.absen-status .message span {
+    font-size: 1.35rem;
+}
+
+.btn-absen {
+    margin-left: auto;
+    background: transparent;
+    border: 1px solid #31708f;
+    border-radius: 10px;
+    padding: .75rem 1.25rem;
+    transition: .3s;
+}
+
+.btn-absen:hover {
+    background: #31708f;
+    color: #fff;
+}
+
+.btn-camera {
+    padding: 1rem 1.6rem;
+    border: 1px solid var(--mainColor);
+    background: var(--mainColor);
+    color: #fff;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+.btn-submit-absen {
+    display: none;
+    padding: .75rem 1.25rem;
+    background: #3ca512;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-submit-absen i {
+    font-size: 1.75rem;
+    margin-right: .75rem;
+}
+
+.modal-absen {
+    width: max-content !important;
+}
+
+.riwayat-absensi {
+    display: flex;
+    align-items: center;
+    padding: 0 3rem 2rem 3rem;
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 2rem;
+}
+
+.absensi-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #999;
+    background-size: cover;
+    background-position: center;
+    margin-right: 2rem;
+}
+
+.absensi-info p {
+    margin-bottom: .2rem;
+}
+
+.absensi-info span {
+    font-size: 1.35rem;
+}
+
+.absensi-status {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    width: 130px;
+}
+
+.absensi-status.terlambat {
+    color: #8a6d3b;
+}
+
+.absensi-status.tepat-waktu {
+    color: #3c763d;
+}
+
+.absensi-status.cuti {
+    color: #31708f;
+}
+
+.absensi-status i {
+    font-size: 3rem;
+    margin-right: 1.5rem;
+}
+
+/* ===== */
+
+.absensi-status-table {
+    display: flex;
+    align-items: center;
+    width: 150px;
+}
+
+.absensi-status-table.terlambat {
+    color: #8a6d3b;
+}
+
+.absensi-status-table.tepat-waktu {
+    color: #3c763d;
+}
+
+.absensi-status-table.cuti {
+    color: #31708f;
+}
+
+.absensi-status-table.belum-absen {
+    color: #a94442;
+}
+
+.absensi-status-table i {
+    font-size: 3rem;
+    margin-right: 1.5rem;
+}
+
+.edit-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.edit-img #editImgView {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+#editImgInput {
+    display: none;
+}
+
+#user-picture {
+    width: 100px !important;
+    height: 100px !important;
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-view-full-width {
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .75);
+    backdrop-filter: blur(3px);
+    transition: .3s;
+    z-index: 9999;
+}
+
+.image-view-full-width.show-view {
+    visibility: visible;
+    opacity: 1;
+}
+
+.image-view-full-width.show-view .image-view {
+    transform: translate(0);
+}
+
+.image-view-full-width-close {
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+    padding: 0;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.image-view-full-width .image-view {
+    max-width: 80%;
+    max-height: 80%;
+    transform: translate(0, 50px);
+    transition: .3s;
+}
