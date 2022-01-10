@@ -11,7 +11,7 @@
                 <div class="row">
                     <div class="col-md-8 col-lg-6">
                         <p>Tanggal</p>
-                        <input type="text" id="tanggal" class="form-control date-picker" value="{{ date('Y-m-d') }}" readonly>
+                        <input type="text" id="tanggal" class="form-control date-picker-2" value="{{ date('Y-m-d') }}" readonly>
                         <br>
                         <p>Divisi</p>
                         <select class="form-control" id="divisi">

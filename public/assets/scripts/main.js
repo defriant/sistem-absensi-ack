@@ -55,6 +55,11 @@ $('.date-picker').datetimepicker({
     format: 'Y-m-d'
 })
 
+$('.date-picker-2').datetimepicker({
+    timepicker: false,
+    format: 'Y-m-d'
+})
+
 $('.time-picker').datetimepicker({
     datepicker: false,
     timepicker: true,
